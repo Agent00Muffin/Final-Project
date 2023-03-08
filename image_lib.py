@@ -3,6 +3,8 @@ Library of useful functions for working with images.
 '''
 def main():
     # TODO: Add code to test the functions in this module
+    image_data = download_image()
+    save_image_file(image_data, )
     return
 
 def download_image(image_url):

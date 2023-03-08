@@ -16,6 +16,13 @@ def get_apod_info(apod_date):
     Returns:
         dict: Dictionary of APOD info, if successful. None if unsuccessful
     """
+    API_KEY = 'lcMnl4LyVsmkRvr4RiiL9l7viVaWbq1nhPxnHOeG'
+
+    query_params = {
+        'api_key': API_KEY,
+        'date': date,
+        'thumbs': body_text,
+    }
     return   
 
 def get_apod_image_url(apod_info_dict):
