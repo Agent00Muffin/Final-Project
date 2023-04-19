@@ -17,7 +17,7 @@ script_dir = os.path.dirname(script_path)
 # Initialize the image cache
 apod_desktop.init_apod_cache(script_dir)
 
-# TODO: Create the GUI
+# Create the GUI
 root = Tk()
 root.geometry()
 root.title("Astronomy Picture of the Day Viewer")

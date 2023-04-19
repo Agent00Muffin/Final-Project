@@ -1,2 +1,2 @@
 # Final Project
- APOD Desktop
+NASA APOD Desktop Tool
